@@ -1,0 +1,29 @@
+.heading-color {
+  color: goldenrod;
+  font-family: 'Rubik Wet Paint', system-ui;
+  font-size: 80px;
+}
+
+.semi-heading {
+  color: goldenrod;
+  font-family: 'Rubik Wet Paint', system-ui;
+  font-size: 35px;
+}
+
+.tom-half-side {
+  width: 60%;
+  margin-left: 5%;
+  float: left;
+}
+.tom-half-side-img {
+  width: 100%;
+  padding-top: 2%;
+}
+.first-part {
+  background-image: url('images/road-background.gif');
+  background-size: 3000px 600px;
+  background-repeat: no-repeat;
+}
+p {
+  font-size: 30px;
+}
