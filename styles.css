@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .heading-color {
   color: goldenrod;
   font-family: 'Rubik Wet Paint', system-ui;
@@ -26,4 +30,14 @@
 }
 p {
   font-size: 30px;
+}
+.first_button {
+  background-image: linear-gradient(tomato, purple);
+  color: whitesmoke;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 5%;
+  float: left;
+  font-weight: bold;
 }
