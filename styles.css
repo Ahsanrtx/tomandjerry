@@ -1,43 +1,40 @@
-body {
-  margin: 0px;
+.name_heighlight {
+  color: gold;
 }
-
-.heading-color {
-  color: goldenrod;
-  font-family: 'Rubik Wet Paint', system-ui;
-  font-size: 80px;
+h1 {
+  font-size: 300%;
 }
-
-.semi-heading {
-  color: goldenrod;
-  font-family: 'Rubik Wet Paint', system-ui;
-  font-size: 35px;
-}
-
-.tom-half-side {
-  width: 60%;
-  margin-left: 5%;
+.half-width {
+  width: 40%;
+  padding-left: 2%;
   float: left;
+  margin: 2%;
 }
-.tom-half-side-img {
+.half-width img {
   width: 100%;
-  padding-top: 2%;
 }
-.first-part {
-  background-image: url('images/road-background.gif');
-  background-size: 3000px 600px;
+.top-banner {
+  background-image: url(images/road-background.gif);
   background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  height: 500px;
 }
 p {
-  font-size: 30px;
+  font-size: 110%;
+  color: black;
 }
-.first_button {
-  background-image: linear-gradient(tomato, purple);
-  color: whitesmoke;
-  padding: 10px;
+.link-button {
   text-decoration: none;
-  border-radius: 5px;
-  margin-left: 5%;
-  float: left;
+  background-image: linear-gradient(45deg, purple, tomato);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
   font-weight: bold;
+}
+.middle-banner {
+  background-image: url(images/2nd-background.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
